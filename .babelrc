@@ -1,7 +1,5 @@
 {
-  "stage": 0,
-  "loose": "all",
-  "plugins": [
-    "dev-expression"
-  ]
+  "presets": ["react", "es2015"],
+  "plugins": [ "syntax-object-rest-spread", "syntax-class-properties" ],
+  "ignore": ["node_modules"]
 }
